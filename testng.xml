@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Program Files (x86)/Intellijrestassured/Restassured/src/test/java/tests/bodydatawithhasmap.java"><classes><class name="tests.bodydatawithhasmap"><methods><include name="bodyhashmaptest"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Program Files (x86)/Intellijrestassured/Restassured/src/test/java/tests/practisechaining">
+        <classes>
+            <class name="tests.practisechaining.createproduct">
+                <methods>
+                    <include name="creatinguser"/>
+                </methods>
+            </class>
+            <class name="tests.practisechaining.getproduct">
+                <methods>
+                    <include name="gettingproductdetailsbasedonid"/>
+                </methods>
+            </class>
+            <class name="tests.practisechaining.updateproduct">
+                <methods>
+                    <include name="updateuserdetailsbasedonid"/>
+                </methods>
+            </class>
+            <class name="tests.practisechaining.deleteproduct">
+                <methods>
+                    <include name="deleteproductbyid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
