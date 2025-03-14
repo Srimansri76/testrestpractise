@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Program Files (x86)/Intellijrestassured/Restassured/src/test/java/tests/diffrentwaysofdatainputs.java">
+        <classes>
+            <class name="tests.diffrentwaysofdatainputs">
+                <methods>
+                    <include name="testingtestng"/>
+                    <include name="geyuserdetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+    <test verbose="2" preserve-order="true" name="C:/Program Files (x86)/Intellijrestassured/Restassured">
+        <classes>
+            <class name="tests.sdetpavanstyle3">
+                <methods>
+                    <include name="GetUserDetails"/>
+                    <include name="CreateNewUser"/>
+                    <include name="DeleteUser"/>
+                </methods>
+            </class>
+            <class name="tests.sdetpavanstyle4">
+                <methods>
+                    <include name="GetUserDetails"/>
+                    <include name="CreateNewUser"/>
+                    <include name="DeleteUser"/>
+                </methods>
+            </class>
+            <class name="tests.sdetpavanstyle2">
+                <methods>
+                    <include name="GetUserDetails"/>
+                    <include name="CreateNewUser"/>
+                    <include name="DeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
