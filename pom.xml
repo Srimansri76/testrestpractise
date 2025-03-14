@@ -33,7 +33,6 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>createandget.xml</suiteXmlFile>
                         <suiteXmlFile>Sanity.xml</suiteXmlFile>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
 
                     </suiteXmlFiles>
                 </configuration>
